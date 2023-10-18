@@ -1,0 +1,68 @@
+#include<iostream>
+using namespace std;
+int main()
+
+
+
+//------------------------------------------------------------------------------------------
+// T A S K   N O  1
+
+
+{
+	int i;
+	int sum=0;
+	for(int i=1;i<11;i++){
+	sum=sum+i;
+	}
+	cout<<"sum of first 10 natural numbers"<<sum<<endl;
+return 0
+}
+	
+	
+
+//-----------------------------------------------------------------------------------------	
+// T A S K   N O  2
+	
+	
+	
+	{
+		int a;
+		int b;
+		for(a=1;a<11;a++){
+	    b=a*2;
+	    cout<<"2x"<<a<<"="<<b<<endl;
+		}
+return 0
+}
+
+
+//-----------------------------------------------------------------------------------------
+// T A S K   N O 3
+
+{
+	int a;
+	int b=1;
+	for(a=5;a>0;a--){
+		b=b*a;}
+		cout<<"factorial of 5!="<<b<<endl;
+return 0
+}
+//-----------------------------------------------------------------------------------------
+// T A S K   N O 4
+
+{
+int a,b,c,d;
+cout<<"input value of a"<<endl;
+cin>>a;
+cout<<"input value of b"<<endl;
+cin>>b;
+cout<<a<<","<<b<<",";
+for(d=0;d<6;d++){
+	c=a+b;
+	a=b;
+	b=c;
+	cout<<c<<",";
+}
+
+	return 0;
+}
